@@ -2,7 +2,7 @@ import java.util.*;
 import java.math.*;
 
 /*
-Huge Fibonacci Number Problem
+Fibonacci Number Problem
 
 Compute the n-th Fibonacci number modulo m.
 
@@ -16,8 +16,9 @@ Constrains:
 public class FibonacciNthModN {
 	
     private static long getFibonacciMod(long n, long m) {
-        if (n <= 1)
+        if (n <= 1){
             return n;
+		}
 		
 		long p = 0;
 		
